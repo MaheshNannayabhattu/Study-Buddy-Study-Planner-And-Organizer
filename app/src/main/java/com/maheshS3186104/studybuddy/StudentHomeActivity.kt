@@ -105,7 +105,8 @@ fun StudentHomeActivityScreen() {
                         .width(100.dp)
                         .height(100.dp)
                         .clickable {
-                            val intent = Intent(context, MyTaskActivity::class.java)
+//                            val intent = Intent(context, MyTaskActivity::class.java)
+                            val intent = Intent(context, UpComingActivity::class.java)
                             context.startActivity(intent)
                         },
                     horizontalAlignment = Alignment.CenterHorizontally
@@ -132,6 +133,8 @@ fun StudentHomeActivityScreen() {
                         .width(100.dp)
                         .height(100.dp)
                         .clickable {
+                            val intent = Intent(context, ModulesActivity::class.java)
+                            context.startActivity(intent)
                         },
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -158,6 +161,8 @@ fun StudentHomeActivityScreen() {
                         .width(100.dp)
                         .height(100.dp)
                         .clickable {
+                            val intent = Intent(context, DueActivity::class.java)
+                            context.startActivity(intent)
                         },
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -172,7 +177,7 @@ fun StudentHomeActivityScreen() {
                     Spacer(modifier = Modifier.height(6.dp))
 
                     Text(
-                        text = "Marks",
+                        text = "Due Dates",
                         fontSize = 12.sp,
                         textAlign = TextAlign.Center
                     )

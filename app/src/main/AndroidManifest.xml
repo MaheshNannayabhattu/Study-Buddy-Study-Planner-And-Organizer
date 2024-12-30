@@ -13,11 +13,26 @@
         android:theme="@style/Theme.StudyPlannerNew"
         tools:targetApi="31">
         <activity
+            android:name=".DueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModulesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ModulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpcomingDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpComingActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
         <activity
             android:name=".StudentHomeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".StudyScheduleActivity"
             android:exported="false" />

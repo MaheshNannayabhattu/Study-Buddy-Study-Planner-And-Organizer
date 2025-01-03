@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.maheshS3186104.studybuddy"
+    namespace = "com.maheshstudybuddy.S3186104"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.maheshS3186104.studybuddy"
+        applicationId = "com.maheshstudybuddy.S3186104"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

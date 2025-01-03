@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "269552358092",
+    "firebase_url": "https://studybuddy-233c2-default-rtdb.firebaseio.com",
     "project_id": "studybuddy-233c2",
     "storage_bucket": "studybuddy-233c2.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:269552358092:android:a3d571cd7c268c06abe869",
+        "mobilesdk_app_id": "1:269552358092:android:c9ccd19499ea730aabe869",
         "android_client_info": {
-          "package_name": "com.maheshS3186104.studybuddy"
+          "package_name": "com.maheshstudybuddy.S3186104"
         }
       },
       "oauth_client": [],
